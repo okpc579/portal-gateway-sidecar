@@ -6,7 +6,7 @@ applications:
     - paketo-buildpacks/java
     routes:
     - route: portal-gateway.<APP_DOMAIN>
-    path: build/libs/paas-ta-portal-gateway.jar
+    #path: build/libs/paas-ta-portal-gateway.jar
     env:
       server_port: 8080
 
