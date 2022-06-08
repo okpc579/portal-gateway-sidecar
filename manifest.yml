@@ -6,7 +6,7 @@ applications:
     - java_buildpack
     routes:
     - route: portal-gateway.<DOMAIN>
-    path: build/libs/paas-ta-portal-gateway.jar
+    #path: build/libs/paas-ta-portal-gateway.jar
     env:
       server_port: 80
 
